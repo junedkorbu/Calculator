@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mdiv{
+    height: 100vh;
+    width: 100%;
+    background-color:lightcyan;
+    position: fixed;
+    top: 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.cal{
+    height: 250px;
+    width: 200px;
+     background-color: whitesmoke; 
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    size: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    
+}
+.cal:hover{
+    box-shadow: 0px 0px 20px royalblue;
+}
+.button{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+    padding-left: 7px; 
+    height: 200px;
+    padding-bottom: 5px;
+}
+.ip{
+    background-color: aquamarine;
+    width: 30px;
+    height: 35px;
+    border-radius: 20% 20% 20% 20%;
+    margin: 2px;
+}
+
+.ip2{
+    width: 62px;
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.userip{
+    text-align: right;
+    border: none;
+    background-color:lightgray;
+    width: 150px;
+}
+.symbol{
+    background-color: orange;
+}
+.text{
+    vertical-align: bottom;
+    z-index: 4;
+    margin-top: 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .buttonn{
+    background-color: aqua;
+} */
